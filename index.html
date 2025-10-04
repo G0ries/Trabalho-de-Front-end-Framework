@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sérgio Filho - Desenvolvedor Frontend</title>
+    <link rel="icon" type="image/png" href="guia-icon.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header fixo -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav__brand">
+                <h2>Sérgio Filho</h2>
+            </div>
+            <ul class="nav__menu">
+                <li><a href="#home" class="nav__link">Início</a></li>
+                <li><a href="#about" class="nav__link">Sobre</a></li>
+                <li><a href="#services" class="nav__link">Serviços</a></li>
+                <li><a href="#contact" class="nav__link">Contato</a></li>
+            </ul>
+            <button class="nav__toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <button class="theme-toggle" aria-label="Alternar tema">
+                <span class="theme-icon">🌙</span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Layout principal com duas colunas -->
+    <div class="main-layout">
+        <!-- Conteúdo principal -->
+        <main class="main-content" id="principal">
+            <!-- Hero Section -->
+            <section class="hero" id="home">
+                <div class="hero__content">
+                    <h1 class="hero__title">Desenvolvedor Front-end</h1>
+                    <p class="introducao">Transformando ideias em soluções digitais através da programação.</p>
+                    <a href="#journey" class="btn btn--primary">Conheça minha jornada</a>
+                </div>
+            </section>
+
+            <!-- Minha Jornada Section -->
+            <section class="journey" id="journey">
+                <div class="journey__content">
+                    <div class="journey__text">
+                        <h2>Minha Jornada</h2>
+                        <p>A robótica foi minha porta de entrada para o mundo da programação, onde aprendi sobre planejamento, lógica e criação de soluções.</p>
+                        <p>Foi na robótica que comecei a entender a lógica por trás de cada movimento dos robôs. Ali, também aprendi a importância do planejamento de projetos: como idealizar, criar e testar soluções.</p>
+                    </div>
+                    <div class="journey__image">
+                        <img src="Sérgio Filho.jpg" alt="Sérgio Filho" class="profile-image">
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section class="about" id="about">
+                <h2>Sobre</h2>
+                <p>Ao longo dos meus anos na escola, sempre me vi cercado de desafios e atividades que, mesmo sem saber, me aproximavam da tecnologia. O primeiro verdadeiro contato que tive com o universo da programação foi por meio da equipe de robótica da minha escola.</p>
+                <p>Foi na robótica que comecei a entender a lógica por trás de cada movimento dos robôs. Ali, também aprendi a importância do planejamento de projetos: como idealizar, criar e testar soluções. A organização do trabalho, o foco no objetivo e a satisfação de ver algo que você planejou tomar forma e funcionar, se tornaram experiências valiosas.</p>
+                <ul class="features-list">
+                    <li>✓ Experiência em robótica e programação</li>
+                    <li>✓ Paixão por JavaScript e sua flexibilidade</li>
+                    <li>✓ Interesse em desenvolvimento Front-end e Back-end</li>
+                    <li>✓ Foco em planejamento e organização de projetos</li>
+                    <li>✓ Determinação em trabalhar com programação</li>
+                </ul>
+            </section>
+
+            <!-- Services Section -->
+            <section class="services" id="services">
+                <h2>Áreas de Interesse</h2>
+                <div class="services__grid">
+                    <div class="service">
+                        <h3>JavaScript</h3>
+                        <p>Paixão pela flexibilidade e dinamicidade desta linguagem poderosa.</p>
+                        <a href="#" class="link" target="_blank">Explorar projetos</a>
+                    </div>
+                    <div class="service">
+                        <h3>Desenvolvimento Front-end</h3>
+                        <p>Criação de interfaces interativas e experiências de usuário excepcionais.</p>
+                        <a href="#" class="link" target="_blank">Ver trabalhos</a>
+                    </div>
+                    <div class="service">
+                        <h3>Desenvolvimento Back-end</h3>
+                        <p>Construção de soluções robustas e escaláveis para a web.</p>
+                        <a href="#" class="link" target="_blank">Conhecer mais</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section class="contact" id="contact">
+                <h2>Contato</h2>
+                <p>Vamos conversar sobre oportunidades e projetos interessantes!</p>
+                <div class="contact__info">
+                    <a href="https://www.linkedin.com/in/sérgio-filho-665462308/" class="contact__link" target="_blank">
+                        <img src="linkedin-icon.png" alt="LinkedIn" class="contact__icon">
+                        LinkedIn
+                    </a>
+                    <a href="https://github.com/G0ries" class="contact__link" target="_blank">
+                        <img src="github-icon.png" alt="GitHub" class="contact__icon">
+                        GitHub
+                    </a>
+                    <a href="mailto:sf9493508@gmail.com" class="contact__link">
+                        <img src="email-icon.png" alt="Email" class="contact__icon">
+                        sf9493508@gmail.com
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <!-- Quick Tip -->
+            <div class="sidebar__section">
+                <h3>Minha Jornada</h3>
+                <p>A robótica foi minha porta de entrada para o mundo da programação, onde aprendi sobre planejamento, lógica e criação de soluções.</p>
+                <a href="#journey" class="sidebar__link">Saiba mais sobre mim</a>
+            </div>
+
+            <!-- Useful Links -->
+            <div class="sidebar__section">
+                <h3>Links Úteis</h3>
+                <ul class="sidebar__links">
+                    <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" class="sidebar__link" target="_blank">MDN JavaScript</a></li>
+                    <li><a href="https://www.linkedin.com/in/sérgio-filho-665462308/" class="sidebar__link" target="_blank">Meu LinkedIn</a></li>
+                    <li><a href="https://github.com/G0ries" class="sidebar__link" target="_blank">Meu GitHub</a></li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Footer fixo -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Sérgio Filho. Todos os direitos reservados.</p>
+            <div class="footer__links">
+                <a href="#" class="footer__link">Política de Privacidade</a>
+                <a href="#" class="footer__link">Termos de Uso</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Toggle do tema claro/escuro
+        const themeToggle = document.querySelector('.theme-toggle');
+        const themeIcon = document.querySelector('.theme-icon');
+        
+        themeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('light-theme');
+            const isLight = document.body.classList.contains('light-theme');
+            themeIcon.textContent = isLight ? '🌙' : '☀️';
+        });
+
+        // Menu hambúrguer responsivo
+        const navToggle = document.querySelector('.nav__toggle');
+        const navMenu = document.querySelector('.nav__menu');
+        
+        navToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('nav__menu--active');
+            navToggle.classList.toggle('nav__toggle--active');
+        });
+
+        // Smooth scroll para links internos
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
